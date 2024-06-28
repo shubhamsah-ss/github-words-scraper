@@ -94,7 +94,7 @@ def raw_file(file_url):
 
 
 repoUrl = input("Target user github profile url: ")
-choice = int(input("Select any one:\n1. Popular repositories\n2. All repositories\nEnter choice:"))
+choice = int(input("Select any one:\n1. Popular repositories\n2. All repositories\nEnter choice: "))
 repo_profile_url = ""
 
 if choice == 1:
